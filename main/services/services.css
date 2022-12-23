@@ -1,0 +1,163 @@
+/* Global Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+    background-color: #161032;
+}
+
+
+
+
+/* Main Container */
+
+.main-container{
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.main-text{
+    animation: fade-in 2s ease-in;
+    text-align: center;
+    color: #FAFF81;
+    border: 2px  black;
+    background-color:#21184a;
+    border-radius: 12px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 8px 0px;
+    
+}
+
+.description{
+    line-height: 1.6;
+    color: rgb(165, 165, 165);
+    text-align: left;
+}
+
+.main-container{
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.heading-card{
+    color: #FAFF81;
+    font-size: 24px;
+}
+
+.card{ 
+    border: #161032 solid 2px ;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px ;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow:  rgba(114, 114, 114, 0.747) 0px 7px 29px 0px;
+}
+
+
+/* ICONS */
+.icon{
+    width: 64px;
+    height: 64px;
+    color: white;
+}
+
+.card-inside{
+    animation: fade-in 2s ease-in;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px ;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+/* Best Seler Design */
+
+.card-4{
+    background-color: #292248;
+    position: relative;
+}
+
+.card-4::before{
+    font-family: "Poppins" sans-serif;
+    content: "Best Seller";
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: -60px ;
+    background-color: #e3e779;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+
+/* Top Btn */
+
+.top-btn{
+    border: #e3e779 solid 2px;
+    background-color: #e3e779;
+    color: #161032;
+    border-radius: 100px;
+    margin: 0 auto ;
+    position: absolute;
+    margin-left: 1700px;
+    transition: all 0.5s ease 0s;
+}
+
+.top-btn:hover{
+    color: #e3e779;
+    background-color: #161032; 
+}
+
+/* ------Footer------ */
+.footer{
+    text-align: center;
+    color: rgb(105, 105, 105);
+    font-size: 22px;
+    margin-top: 200px;
+ } 
+
+
+ @keyframes fade-in {
+
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes fade-in {
+
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap);
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+html{
+    background-color:#161032 ;
+}
+
+/* Logo Image Format Spacing */
+
+.logo{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+
+#header{
+    border-bottom: #FAFF81 solid;
+}
+
+.nav-bar{
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.link:link , .link:visited
+{
+    color: #FAFF81;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 30px ;
+    font-weight: bold;
+    animation: fade-in 2s ease-in;   
+}
+
+.link:hover{
+    color: #616283;
+    transition: all 0.4s ease 0s;
+}
+
+@keyframes fade-in {
+
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
